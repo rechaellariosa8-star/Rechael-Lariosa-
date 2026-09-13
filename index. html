@@ -1,0 +1,1338 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Rechael | Personal Portfolio</title>
+
+<link rel="stylesheet" href="index.css">
+
+</head><body><!-- BACKGROUND DECORATION -->
+<div class="orb orb-one"></div>
+<div class="orb orb-two"></div>
+
+<!-- NAVIGATION -->
+<header class="header">
+
+    <a href="#" class="brand" onclick="hideAll()">
+        <span>R</span>
+        RECHAEL
+    </a>
+
+    <nav class="navigation">
+
+        <button onclick="showSection('home')">
+            <span>⌂</span>
+            Home
+        </button>
+
+        <button onclick="showSection('gallery')">
+            <span>▦</span>
+            Gallery
+        </button>
+
+        <button onclick="showSection('skills')">
+            <span>✦</span>
+            Skills
+        </button>
+
+        <button onclick="showSection('contacts')">
+            <span>✉</span>
+            Contact
+        </button>
+
+    </nav>
+
+</header>
+
+
+<!-- MAIN CONTENT -->
+<main>
+
+    <!-- HOME -->
+    <section id="home" class="content">
+
+        <div class="home-card">
+
+            <div class="home-image">
+                <img src="rechael.jpg" alt="Rechael O. Lariosa">
+            </div>
+
+            <div class="home-info">
+
+                <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hello, I'm <span>Rechael.</span>
+                </h1>
+
+                <p class="description">
+                    A BSIT student passionate about technology,
+                    creativity, design, and learning new things.
+                </p>
+
+                <div class="student-info">
+
+                    <div>
+                        <strong>BSIT 2-E</strong>
+                        <small>Program & Section</small>
+                    </div>
+
+                    <div>
+                        <strong>CPSU</strong>
+                        <small>My University</small>
+                    </div>
+
+                </div>
+
+                <button class="main-button" onclick="showSection('gallery')">
+                    Explore My Portfolio
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section id="gallery" class="content">
+
+        <div class="section-header">
+
+            <div>
+                <p class="section-label">MY WORK</p>
+                <h2>My Gallery</h2>
+            </div>
+
+            <p>
+                A collection of my activities,
+                projects, experiences, and achievements.
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <article class="gallery-card">
+                <img src="acrivity.jpg" alt="My Activity">
+
+                <div class="gallery-overlay">
+                    <span>01</span>
+                    <h3>My Activity</h3>
+                    <p>School activities and memorable moments.</p>
+                </div>
+            </article>
+
+
+            <article class="gallery-card">
+                <img src="project.jpg" alt="School Project">
+
+                <div class="gallery-overlay">
+                    <span>02</span>
+                    <h3>School Project</h3>
+                    <p>Projects and outputs created during my studies.</p>
+                </div>
+            </article>
+
+
+            <article class="gallery-card">
+                <img src="experience.jpg" alt="My Experience">
+
+                <div class="gallery-overlay">
+                    <span>03</span>
+                    <h3>My Experience</h3>
+                    <p>Experiences that helped me grow and learn.</p>
+                </div>
+            </article>
+
+
+            <article class="gallery-card">
+                <img src="certificate.jpg" alt="Certificate">
+
+                <div class="gallery-overlay">
+                    <span>04</span>
+                    <h3>Certificate</h3>
+                    <p>Achievements and certificates I've earned.</p>
+                </div>
+            </article>
+
+        </div>
+
+        <button class="close-button" onclick="hideAll()">
+            Close Gallery
+        </button>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="content">
+
+        <div class="section-header">
+
+            <div>
+                <p class="section-label">WHAT I CAN DO</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <p>
+                Skills I continue to develop through
+                practice, projects, and experience.
+            </p>
+
+        </div>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <div class="skill-name">
+                        <span class="skill-number">01</span>
+                        <h3>HTML</h3>
+                    </div>
+
+                    <strong>90%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress html"></div>
+                </div>
+
+                <p>Building structured and interactive web pages.</p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <div class="skill-name">
+                        <span class="skill-number">02</span>
+                        <h3>CSS</h3>
+                    </div>
+
+                    <strong>80%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress css"></div>
+                </div>
+
+                <p>Creating clean, responsive, and modern designs.</p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <div class="skill-name">
+                        <span class="skill-number">03</span>
+                        <h3>C++</h3>
+                    </div>
+
+                    <strong>75%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress cpp"></div>
+                </div>
+
+                <p>Learning programming logic and object-oriented concepts.</p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+                    <div class="skill-name">
+                        <span class="skill-number">04</span>
+                        <h3>Java</h3>
+                    </div>
+
+                    <strong>80%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress adobe"></div>
+                </div>
+
+                <p>Creative editing, design, and digital content creation.</p>
+
+            </div>
+
+        </div>
+
+        <button class="close-button" onclick="hideAll()">
+            Close Skills
+        </button>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contacts" class="content">
+
+        <div class="section-header">
+
+            <div>
+                <p class="section-label">GET IN TOUCH</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <p>
+                Here are my personal and academic
+                contact details.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <div class="contact-icon">♟</div>
+                <div>
+                    <span>Name</span>
+                    <h3>Rechael O. Lariosa</h3>
+                </div>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">▰</div>
+                <div>
+                    <span>Course</span>
+                    <h3>BSIT 2-E</h3>
+                </div>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">⚑</div>
+                <div>
+                    <span>School</span>
+                    <h3>
+                        <a href="https://www.facebook.com/profile.php?id=100081610303435"
+                           target="_blank">
+                            Central Philippine State University
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">✉</div>
+                <div>
+                    <span>Email</span>
+                    <h3>
+                        <a href="mailto:rechaellariosa8@gmail.com">
+                            rechaellariosa8@gmail.com
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">ⓕ</div>
+                <div>
+                    <span>Facebook</span>
+                    <h3>
+                        <a href="https://www.facebook.com/pretty.chell0"
+                           target="_blank">
+                            Çhell lì
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">♪</div>
+                <div>
+                    <span>TikTok</span>
+                    <h3>
+                        <a href="https://www.tiktok.com/@urprtychell"
+                           target="_blank">
+                            urprtychell
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="close-button" onclick="hideAll()">
+            Close Contacts
+        </button>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-line"></div>
+
+    <p>© 2026 Rechael O. Lariosa</p>
+    <span>MY PERSONAL PORTFOLIO</span>
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script>
+
+    function showSection(id) {
+
+        const sections = document.querySelectorAll(".content");
+
+        sections.forEach(function(section) {
+            section.classList.remove("active");
+        });
+
+        const selected = document.getElementById(id);
+
+        selected.classList.add("active");
+
+        setTimeout(function() {
+            selected.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }, 50);
+    }
+
+
+    function hideAll() {
+
+        const sections = document.querySelectorAll(".content");
+
+        sections.forEach(function(section) {
+            section.classList.remove("active");
+        });
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+min-height: 100vh;
+font-family: "Segoe UI", Arial, sans-serif;
+color: #ffffff;
+
+background:
+    radial-gradient(circle at 10% 20%, rgba(74, 144, 226, 0.18), transparent 30%),
+    radial-gradient(circle at 90% 80%, rgba(145, 92, 182, 0.18), transparent 30%),
+    #0b1020;
+
+overflow-x: hidden;
+
+}
+
+/* ================================
+BACKGROUND ORBS
+================================ */
+
+.orb {
+position: fixed;
+border-radius: 50%;
+pointer-events: none;
+filter: blur(5px);
+z-index: 0;
+}
+
+.orb-one {
+width: 300px;
+height: 300px;
+top: -120px;
+left: -120px;
+background: rgba(74, 144, 226, 0.12);
+}
+
+.orb-two {
+width: 350px;
+height: 350px;
+right: -160px;
+bottom: -150px;
+background: rgba(145, 92, 182, 0.12);
+}
+
+/* ================================
+HEADER
+================================ */
+
+.header {
+width: 100%;
+max-width: 1150px;
+margin: auto;
+
+padding: 28px 25px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+position: relative;
+z-index: 10;
+
+}
+
+/* LOGO */
+
+.brand {
+display: flex;
+align-items: center;
+gap: 12px;
+
+color: white;
+text-decoration: none;
+
+font-size: 20px;
+font-weight: 800;
+letter-spacing: 2px;
+
+}
+
+.brand span {
+width: 40px;
+height: 40px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 12px;
+
+background: #ffffff;
+color: #0b1020;
+
+font-size: 18px;
+
+}
+
+/* NAVIGATION */
+
+.navigation {
+display: flex;
+gap: 8px;
+
+padding: 7px;
+
+border: 1px solid rgba(255,255,255,0.08);
+border-radius: 50px;
+
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(15px);
+
+}
+
+.navigation button {
+border: none;
+background: transparent;
+
+color: rgba(255,255,255,0.65);
+
+padding: 10px 17px;
+
+border-radius: 30px;
+
+cursor: pointer;
+
+font-size: 13px;
+font-weight: 600;
+
+transition: 0.3s;
+
+}
+
+.navigation button span {
+margin-right: 5px;
+}
+
+.navigation button:hover {
+background: rgba(255,255,255,0.1);
+color: white;
+transform: translateY(-2px);
+}
+
+/* ================================
+MAIN
+================================ */
+
+main {
+width: 100%;
+max-width: 1150px;
+margin: auto;
+
+padding: 30px 25px 70px;
+
+position: relative;
+z-index: 2;
+
+}
+
+/* ================================
+CONTENT
+================================ */
+
+.content {
+display: none;
+}
+
+.content.active {
+display: block;
+
+animation: sectionIn 0.55s ease;
+
+}
+
+@keyframes sectionIn {
+
+from {
+    opacity: 0;
+    transform: translateY(25px);
+}
+
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+}
+
+/* ================================
+HOME
+================================ */
+
+.home-card {
+min-height: 520px;
+
+display: grid;
+grid-template-columns: 0.9fr 1.1fr;
+
+align-items: center;
+
+gap: 70px;
+
+padding: 65px;
+
+border: 1px solid rgba(255,255,255,0.1);
+border-radius: 30px;
+
+background: rgba(255,255,255,0.045);
+
+backdrop-filter: blur(20px);
+
+box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+
+}
+
+/* PROFILE IMAGE */
+
+.home-image {
+display: flex;
+justify-content: center;
+}
+
+.home-image img {
+width: 300px;
+height: 300px;
+
+object-fit: cover;
+
+border-radius: 30px;
+
+border: 1px solid rgba(255,255,255,0.2);
+
+padding: 8px;
+
+background: rgba(255,255,255,0.05);
+
+box-shadow:
+    0 20px 60px rgba(0,0,0,0.35);
+
+transition: 0.4s;
+
+}
+
+.home-image img:hover {
+transform: translateY(-8px) rotate(1deg);
+}
+
+/* HOME TEXT */
+
+.small-title,
+.section-label {
+color: rgba(255,255,255,0.5);
+
+font-size: 12px;
+font-weight: 700;
+
+letter-spacing: 3px;
+
+margin-bottom: 15px;
+
+}
+
+.home-info h1 {
+font-size: clamp(42px, 6vw, 68px);
+
+line-height: 1;
+
+margin-bottom: 25px;
+
+letter-spacing: -2px;
+
+}
+
+.home-info h1 span {
+color: #8ab4f8;
+}
+
+.description {
+max-width: 520px;
+
+color: rgba(255,255,255,0.65);
+
+line-height: 1.8;
+
+font-size: 16px;
+
+margin-bottom: 28px;
+
+}
+
+/* STUDENT INFO */
+
+.student-info {
+display: flex;
+gap: 12px;
+
+margin-bottom: 30px;
+
+}
+
+.student-info div {
+min-width: 150px;
+
+padding: 15px 18px;
+
+border-radius: 14px;
+
+background: rgba(255,255,255,0.055);
+
+border: 1px solid rgba(255,255,255,0.08);
+
+}
+
+.student-info strong {
+display: block;
+font-size: 14px;
+}
+
+.student-info small {
+display: block;
+
+margin-top: 5px;
+
+color: rgba(255,255,255,0.45);
+
+font-size: 11px;
+
+}
+
+/* MAIN BUTTON */
+
+.main-button {
+border: none;
+
+padding: 15px 22px;
+
+border-radius: 12px;
+
+background: white;
+color: #0b1020;
+
+font-size: 14px;
+font-weight: 700;
+
+cursor: pointer;
+
+transition: 0.3s;
+
+}
+
+.main-button span {
+margin-left: 12px;
+}
+
+.main-button:hover {
+transform: translateY(-3px);
+
+box-shadow: 0 12px 30px rgba(255,255,255,0.15);
+
+}
+
+/* ================================
+SECTION HEADER
+================================ */
+
+.section-header {
+display: flex;
+align-items: end;
+justify-content: space-between;
+
+gap: 30px;
+
+margin-bottom: 35px;
+
+}
+
+.section-header h2 {
+font-size: 42px;
+letter-spacing: -1px;
+}
+
+.section-header > p {
+max-width: 400px;
+
+color: rgba(255,255,255,0.5);
+
+line-height: 1.7;
+
+font-size: 14px;
+
+}
+
+/* ================================
+GALLERY
+================================ */
+
+.gallery-grid {
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+gap: 20px;
+
+}
+
+.gallery-card {
+height: 300px;
+
+position: relative;
+
+overflow: hidden;
+
+border-radius: 22px;
+
+background: #151b2d;
+
+border: 1px solid rgba(255,255,255,0.08);
+
+}
+
+.gallery-card img {
+width: 100%;
+height: 100%;
+
+object-fit: cover;
+
+transition: 0.5s;
+
+}
+
+.gallery-card:hover img {
+transform: scale(1.08);
+}
+
+.gallery-overlay {
+position: absolute;
+
+left: 0;
+right: 0;
+bottom: 0;
+
+padding: 25px;
+
+background: linear-gradient(
+    transparent,
+    rgba(0,0,0,0.9)
+);
+
+}
+
+.gallery-overlay span {
+font-size: 11px;
+
+color: rgba(255,255,255,0.5);
+
+letter-spacing: 2px;
+
+}
+
+.gallery-overlay h3 {
+margin-top: 5px;
+
+font-size: 21px;
+
+}
+
+.gallery-overlay p {
+margin-top: 5px;
+
+color: rgba(255,255,255,0.6);
+
+font-size: 12px;
+
+}
+
+/* ================================
+SKILLS
+================================ */
+
+.skills-container {
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+gap: 18px;
+
+}
+
+.skill-card {
+padding: 25px;
+
+border-radius: 20px;
+
+background: rgba(255,255,255,0.045);
+
+border: 1px solid rgba(255,255,255,0.08);
+
+transition: 0.3s;
+
+}
+
+.skill-card:hover {
+transform: translateY(-5px);
+
+background: rgba(255,255,255,0.07);
+
+}
+
+.skill-top {
+display: flex;
+
+align-items: center;
+justify-content: space-between;
+
+margin-bottom: 18px;
+
+}
+
+.skill-name {
+display: flex;
+align-items: center;
+
+gap: 12px;
+
+}
+
+.skill-number {
+color: rgba(255,255,255,0.3);
+
+font-size: 11px;
+
+letter-spacing: 1px;
+
+}
+
+.skill-name h3 {
+font-size: 17px;
+}
+
+.skill-top > strong {
+font-size: 13px;
+
+color: #8ab4f8;
+
+}
+
+.skill-bar {
+width: 100%;
+height: 7px;
+
+overflow: hidden;
+
+border-radius: 20px;
+
+background: rgba(255,255,255,0.08);
+
+margin-bottom: 15px;
+
+}
+
+.skill-progress {
+height: 100%;
+
+border-radius: 20px;
+
+background: linear-gradient(
+    90deg,
+    #6ea8fe,
+    #9b8cff
+);
+
+animation: progressLoad 1.2s ease;
+
+}
+
+.html {
+width: 90%;
+}
+
+.css {
+width: 80%;
+}
+
+.cpp {
+width: 75%;
+}
+
+.adobe {
+width: 80%;
+}
+
+.skill-card p {
+color: rgba(255,255,255,0.45);
+
+font-size: 12px;
+
+line-height: 1.6;
+
+}
+
+@keyframes progressLoad {
+
+from {
+    width: 0;
+}
+
+}
+
+/* ================================
+CONTACT
+================================ */
+
+.contact-grid {
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+gap: 15px;
+
+}
+
+.contact-card {
+display: flex;
+align-items: center;
+
+gap: 18px;
+
+min-height: 105px;
+
+padding: 20px;
+
+border-radius: 18px;
+
+background: rgba(255,255,255,0.045);
+
+border: 1px solid rgba(255,255,255,0.08);
+
+transition: 0.3s;
+
+}
+
+.contact-card:hover {
+transform: translateY(-4px);
+
+border-color: rgba(255,255,255,0.16);
+
+background: rgba(255,255,255,0.07);
+
+}
+
+.contact-icon {
+width: 50px;
+height: 50px;
+
+flex-shrink: 0;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 14px;
+
+background: rgba(255,255,255,0.08);
+
+font-size: 22px;
+
+}
+
+.contact-card span {
+display: block;
+
+margin-bottom: 5px;
+
+color: rgba(255,255,255,0.4);
+
+font-size: 11px;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+}
+
+.contact-card h3 {
+font-size: 14px;
+
+line-height: 1.5;
+
+word-break: break-word;
+
+}
+
+.contact-card a {
+color: white;
+
+text-decoration: none;
+
+transition: 0.3s;
+
+}
+
+.contact-card a:hover {
+color: #8ab4f8;
+}
+
+/* ================================
+CLOSE BUTTON
+================================ */
+
+.close-button {
+display: block;
+
+margin: 35px auto 0;
+
+padding: 11px 20px;
+
+border: 1px solid rgba(255,255,255,0.12);
+
+border-radius: 30px;
+
+background: transparent;
+
+color: rgba(255,255,255,0.55);
+
+cursor: pointer;
+
+font-size: 12px;
+
+transition: 0.3s;
+
+}
+
+.close-button:hover {
+color: white;
+
+background: rgba(255,255,255,0.08);
+
+transform: translateY(-2px);
+
+}
+
+/* ================================
+FOOTER
+================================ */
+
+footer {
+position: relative;
+z-index: 2;
+
+text-align: center;
+
+padding: 25px;
+
+color: rgba(255,255,255,0.4);
+
+font-size: 12px;
+
+}
+
+.footer-line {
+width: 60px;
+height: 1px;
+
+margin: 0 auto 15px;
+
+background: rgba(255,255,255,0.2);
+
+}
+
+footer span {
+display: block;
+
+margin-top: 5px;
+
+font-size: 9px;
+
+letter-spacing: 2px;
+
+color: rgba(255,255,255,0.25);
+
+}
+
+/* ================================
+TABLET
+================================ */
+
+@media (max-width: 850px) {
+
+.header {
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.home-card {
+    grid-template-columns: 1fr;
+
+    text-align: center;
+
+    gap: 35px;
+
+    padding: 45px 30px;
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.student-info {
+    justify-content: center;
+}
+
+.home-image img {
+    width: 230px;
+    height: 230px;
+}
+
+}
+
+/* ================================
+MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+.header {
+    padding: 20px 15px;
+}
+
+.navigation {
+    width: 100%;
+
+    justify-content: center;
+}
+
+.navigation button {
+    padding: 9px 10px;
+
+    font-size: 11px;
+}
+
+.navigation button span {
+    display: none;
+}
+
+main {
+    padding: 20px 15px 50px;
+}
+
+.home-card {
+    padding: 35px 20px;
+
+    border-radius: 22px;
+}
+
+.home-info h1 {
+    font-size: 43px;
+}
+
+.student-info {
+    flex-direction: column;
+}
+
+.student-info div {
+    width: 100%;
+}
+
+.section-header {
+    display: block;
+}
+
+.section-header h2 {
+    font-size: 34px;
+}
+
+.section-header > p {
+    margin-top: 15px;
+}
+
+.gallery-grid,
+.skills-container,
+.contact-grid {
+    grid-template-columns: 1fr;
+}
+
+.gallery-card {
+    height: 260px;
+}
+
+.contact-card {
+    min-height: 95px;
+}
+
+}
+
